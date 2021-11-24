@@ -2,7 +2,8 @@ const path = require('path');
 const fs = require('fs');
 
 const destination = 'build';
-const filesToCopy = ['package.json', 'yarn.lock'];
+// const filesToCopy = ['package.json', 'yarn.lock'];
+const filesToCopy = ['package.json'];
 
 async function copy() {
   const dir = process.cwd();
