@@ -5,7 +5,7 @@
 ### Prerequisite
 
 - NodeJS (>=12+)
-- Yarn (>=1.19+)
+
 
 ### Technologies used
 
@@ -15,6 +15,3 @@
 
 ### Run server
 
-```
-yarn start
-```
