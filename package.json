@@ -23,6 +23,7 @@
   "scripts": {
     "start:ts-node": "ts-node src/server.js",
     "start": "nodemon",
+    "start:dev": "nodemon src/server.js",
     "server": "nodemon src/server.js",
     "lint": "eslint . --ext .ts",
     "build": "rimraf ./build && tsc && node scripts/build.js",
