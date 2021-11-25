@@ -15,7 +15,7 @@
     "prettier": "^2.1.1",
     "rimraf": "^3.0.2",
     "ts-node": "^8.10.2",
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.10"
   },
   "scripts": {
     "start:ts-node": "ts-node src/server.ts",
@@ -34,8 +34,6 @@
     "prettier": "^2.1.1",
     "rimraf": "^3.0.2",
     "sockjs": "^0.3.21",
-    "ts-node": "^8.10.2",
-    "typescript": "^3.9.7",
     "uuid": "^8.3.0",
     "ws": "^7.3.1"
   }
