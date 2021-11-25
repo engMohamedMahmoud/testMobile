@@ -21,8 +21,9 @@
     "typescript": "^3.9.7"
   },
   "scripts": {
-    "start:ts-node": "ts-node src/server.ts",
+    "start:ts-node": "ts-node src/server.js",
     "start": "nodemon",
+    "server": "nodemon app.js",
     "lint": "eslint . --ext .ts",
     "build": "rimraf ./build && tsc && node scripts/build.js",
     "prettier": "prettier . --write"
